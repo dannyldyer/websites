@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Playfair+Display&family=Raleway:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+h1{
+    font-family: 'Bitter', serif;
+}
+h2{
+    font-family: 'Bitter', serif;
+}
+h3{
+    text-align: center;
+}
+    
+body{
+    scroll-behavior: smooth;
+}
+/* nav */
+
+.navbar .navbar-nav .nav-link{
+    color:#000;
+    font-family: 'Bitter', serif;
+}
+.navbar .navbar-nav .nav-link:hover{
+    text-decoration: line-through;
+    color: rgb(131, 23, 23);
+}
+.navbar .navbar-nav .nav-link:active{
+    text-decoration: line-through;
+    color: rgb(131, 23, 23); 
+}
+.navbar-brand{
+    color: #000;
+    font-family: 'Corinthia', cursive;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+/* .navbar button .navbar-toggler .navbar-toggler-icon{
+    color: #000;
+} */
+
+.nav-item{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* ... */
+/* home section*/
+#first{
+    background-color:#BDD2B6;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    
+}
+.homepara{
+    font-size: 1.1rem;
+    font-family: 'EB Garamond', serif;
+}
+/* btns */
+.buynow{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    text-align: center;
+    width: 165px;
+    height: 40px;
+    background-color: #798777;
+    color: #fff;
+    border-width: 0;
+    line-height: 10px;
+    font-weight: 400;
+ 
+ }
+#first h1{
+    font-size: 2.5rem;
+}
+#first h2{
+    font-size: 2.5rem;
+}
+.firstpic{
+    max-width: 100%;
+    height: auto;
+}
+
+/* about section */
+#about{
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50PX;
+    text-align: center;
+}
+.aboutpara{
+    font-size: 1.1rem;
+    font-family: 'EB Garamond', serif;
+    
+}
+.aboutpara .signed{
+    font-family: 'Corinthia', cursive;
+    font-size: 3rem;
+    color: darkred;
+    font-style: italic;
+}
+.col-sm-3 p{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    line-height: 25px;
+}
+.fab{
+    color: rgb(194, 41, 41);
+    font-size: 40px;
+    margin: 20px;
+}
+
+/* services section */
+#services{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    /* text-align: center;    */
+}
+#services .container .row .col .p-3{
+    background-color:#798777;
+}
+.serviceicon{
+    padding-top: 25px;
+    font-size: 1.5rem;
+}
+.servicespara{
+    font-family: 'Bitter', serif;
+
+}
+
+
+/* team section */
+#team{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    background-color: #BDD2B6;
+}
+.team1{
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.team2{
+    max-width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.teampara{
+    padding: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+
+}
+
+/* reviews section */
+#reviews{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+
+}
+
+.reviewspara{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+ }
+
+.carousel-item{
+
+    padding: 6% 15%;
+}
+
+.reviewspic{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+
+/* contact section */
+
+#contact{
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    background-color:#BDD2B6;
+    font-family: 'Playfair Display', serif; 
+    
+}
+
+.row .col-lg-6{
+    padding-top: 50px;
+}
+
+.row .col-lg-6 .fa-map-marker-alt{
+    font-size: 3rem;
+}
+.location{
+    display: inline-block;
+    padding: 20px;
+}
+.phone{
+    display: inline-block;
+    padding: 20px;    
+}
+.mail{
+    display: inline-block;
+    padding: 20px;   
+}
+.d-grid .btn{
+    background-color: #798777;
+}
+
+/* contact icons */
+.bi-geo-alt{
+    font-size: 1.5rem;
+    float: left;
+    padding-right: 10px;
+}
+.bi-telephone{
+    font-size: 1.5rem;
+    float: left;
+    padding-right: 10px;
+}
+.bi-envelope-open{
+    font-size: 1.5rem;
+    float: left;
+    padding-right: 10px;
+}
+
+/* map section */
+#map{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: #BDD2B6;
+    width: 100%;
+    text-align: center;
+    /* height: auto; */
+}
+
+/* footer section */
+.footer{
+    padding-top: 50px;
+    /* padding-left: 150px;
+    padding-right: 150px; */
+    padding-bottom: 50px;
+    background-color: #939494;
+    color: #fff;
+    text-align: center;
+}
+.footericonlink{
+    padding: 10px;
+    /* font-size: 25px; */
+}
+.footerp{
+    padding-top: 10px;
+}
+.footericonlink{
+    color: #fff;
+}
+.footerbrand{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+/* animation */
+
+
+/* media query */
+@media only screen and (min-width: 992px) {
+    /* homesection */
+    #first{
+        padding-top: 140px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 100px;
+    }
+    #first h1{
+        font-size: 3.8rem;
+    }
+    #first h2{
+        font-size: 3.8rem;
+    }
+    .homepara{
+        font-size: 1.5rem;
+        font-family: 'EB Garamond', serif;
+    }
+    /* aboutsection */
+    #about{
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 100PX;
+    }
+    .aboutpara{
+        font-size: 1.5rem;
+    }
+    /* services section */
+    #services{
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 150px;
+    }
+    .serviceicon{
+        padding-top: 25px;
+        font-size: 2rem;
+    }
+    /* team section */
+    #team{
+        padding-top: 150px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 150px;
+    }
+    .team1{
+    width: 250px;
+    height: 400px;
+    display: inline;
+    }
+    .team2{
+        width: 250px;
+    height: 400px;
+    display: inline;
+    }
+    .teampara{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    /* reviews section */
+    #reviews{
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 50px;
+        text-align: center;
+    
+    }
+    .carousel-item{
+
+        padding: 2% 8%;
+    }
+    .reviewspara{
+       font-size: 2rem;
+       font-weight: 500;
+       font-family: 'Bitter', serif;
+    }
+
+    .reviewspic{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    /* conatct section */
+    #contact{
+        padding-top: 100px;
+        padding-left: 150px;
+        padding-right: 150px;
+        /* padding-bottom: 50px; */ 
+    }
+    .bi-geo-alt{
+        font-size: 3rem;
+        float: left;
+        padding-right: 10px;
+    }
+    .bi-telephone{
+        font-size: 3rem;
+        float: left;
+        padding-right: 10px;
+    }
+    .bi-envelope-open{
+        font-size: 3rem;
+        float: left;
+        padding-right: 10px;
+    }
+    /* map section */
+    #map{
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    #map iframe {
+        width: 800px;
+        height: 400px;
+    }
+    /* footer section */
+    .footericonlink{
+        padding: 10px;
+        font-size: 25px;
+    }
+  }
